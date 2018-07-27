@@ -1,0 +1,17 @@
+{
+    "name": "longbeidou/taobaoke",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "longbeidou",
+            "email": "1482585838@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+	    "psr-4": {
+		    "Longbeidou\\Taobaoke\\": "src/"
+		}
+	}
+}
