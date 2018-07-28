@@ -52,6 +52,7 @@ abstract class Base implements Contract
 		$this->c = new TopClient;
 	    $this->c->appkey = config('taobaoke.appkey');
 	    $this->c->secretKey = config('taobaoke.secretKey');
+	    $this->c->format = config('taobaoke.format');
 
 	    $this->setOptions = new SetOptions();
 	}
